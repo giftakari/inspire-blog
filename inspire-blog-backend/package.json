@@ -4,7 +4,7 @@
   "description": "Inspire blog backend -A blog project to inspire yonng men and women ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx nodemon --exec npx babel-node src/server.js"
   },
   "author": "Godsgift Akari",
   "license": "ISC",
